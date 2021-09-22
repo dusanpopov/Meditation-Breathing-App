@@ -29,7 +29,7 @@ body{
 
 .input select{
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     min-width: 300px;
     font-size: 18px;
     padding: 8px 4px;
