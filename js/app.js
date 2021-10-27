@@ -17,7 +17,6 @@ const growCircle = () => {
         circleProgressEl.classList.remove("circle-grow");
     }, 8000);
 }
-
 // Update instructions elements
 const instructionsElementUpdate = () => {
     setTimeout(() => {
