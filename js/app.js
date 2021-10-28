@@ -9,7 +9,6 @@ numberOfBreaths.addEventListener("change", () => {
     breathsLeft = numberOfBreaths.value;
     breathsEl.textContent = breathsLeft;
 });
-
 // Grow/shrink circle
 const growCircle = () => {
     circleProgressEl.classList.add("circle-grow");
