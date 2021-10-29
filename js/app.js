@@ -32,7 +32,6 @@ const breathTextUpdate = () => {
     instructionsEl.textContent = "Breath in";
     instructionsElementUpdate();
 }
-
 // Animation / element update function
 const breathingAnimationFunction = () => {
     let breathingAnimation = setInterval(() => {
