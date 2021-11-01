@@ -47,7 +47,6 @@ const breathingAnimationFunction = () => {
         breathTextUpdate();
     }, 12000);
 }
-
 // Begin breathing function
 const beginBreathing = () => {
     setTimeout(() => {
