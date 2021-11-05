@@ -9,6 +9,7 @@ numberOfBreaths.addEventListener("change", () => {
     breathsLeft = numberOfBreaths.value;
     breathsEl.textContent = breathsLeft;
 });
+
 // Grow/shrink circle
 const growCircle = () => {
     circleProgressEl.classList.add("circle-grow");
@@ -16,6 +17,7 @@ const growCircle = () => {
         circleProgressEl.classList.remove("circle-grow");
     }, 8000);
 }
+
 // Update instructions elements
 const instructionsElementUpdate = () => {
     setTimeout(() => {
@@ -32,6 +34,7 @@ const breathTextUpdate = () => {
     instructionsEl.textContent = "Breath in";
     instructionsElementUpdate();
 }
+
 // Animation / element update function
 const breathingAnimationFunction = () => {
     let breathingAnimation = setInterval(() => {
@@ -47,6 +50,7 @@ const breathingAnimationFunction = () => {
         breathTextUpdate();
     }, 12000);
 }
+
 // Begin breathing function
 const beginBreathing = () => {
     setTimeout(() => {
